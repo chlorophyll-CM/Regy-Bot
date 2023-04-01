@@ -24,7 +24,8 @@ async fn user(ctx: &Context, msg: &Message) -> CommandResult {
             return Ok(());
         } else if msg.author.id == 598280691066732564 {
             msg.reply(ctx, "i hate you 1984 i hate you 1984 i hate you 1984").await?;
-        }
+        } else if msg.author.id == 1091532924211429389 {
+            msg.reply(ctx, "PHill.... Just stfu").await?;
 
         msg.reply(ctx, "Why would you not be a user you skid :skull:").await?;
 
