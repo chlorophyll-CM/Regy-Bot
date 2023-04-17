@@ -31,7 +31,7 @@ pub async fn user(
                 return Ok(());
             }
             598280691066732564 => {
-                ctx.say("i hate you 1984 i hate you 1984 i hate you 1984").await?;
+                ctx.say("i hate you 1984 i hate you 1984 i hate you 1984 But @1097619661073420338 Loves you :heart:").await?;
                 return Ok(());
             }
             262717308089139200 => {
