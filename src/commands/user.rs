@@ -11,7 +11,7 @@ pub async fn user(
     let arg = type_conversions::string_to_static_str(command_arg.unwrap());
     match arg {
         "none" => {
-            ctx.say("You need to specify a command, I expect higher of you, you should know how to use this bot correctly").await?;
+            ctx.say("You need to specify a command, I expect higher of you, you should know how to use this bot correctly, we made you am mod for a reson so dont be skiddy").await?;
             return Ok(());
         }
         "help" => {
@@ -39,11 +39,11 @@ pub async fn user(
                 return Ok(());
             }
             927579571396698182 => {
-                ctx.say("Awwww~ aren't you a cute little Neko! Ofcourse you're a user :D").await?;
+                ctx.say("Awwww~ aren't you a cute little Neko! Of course you're a user :D").await?;
                 return Ok(());
             }
             275787354688585730 => {
-                ctx.say("💕✨hey boo. i know ur asleep, butttt i just wanna say that im sooo fucking lucky to have you bb 🥰. you're like the first thing i think about when i wake up 🤩 and the last thing i think about before i go to sleep 😌 you make me smile 24/7 whether its your voice when we call or a message from you when we text 😊 you're always there for me even when u cant be physically and i appreciate that boo 😤 we have only been dating for a lil while 🥺 but you've literally made me so freaking happy in this short amount of time we've been together 😭, i really want this to last 😩, i wanna stay with you because i honestly cant think of anyone else that id rather be with or could see myself happier with 😘. i love u i really do ❤️, and i don't ever wanna lose you babyyy you have no ideaaa 😭, like i've gotten attached to you like you're smart, handsome, down to earth, funny, and strong 😻, i know we cant be together in person rn 😔 but if we love each other then it shouldn't be a problem 💕 i wuv u so much and i haven't felt this way about someone in a hot fucking minute 🥶 and i REALLY mean it 🥴 but thats all i have to say and ill talk to you in the morning when u wake up bb, much love 😭❤️💕. (this is probably cheesy asf but like i had to write this 😭💕)").await?;
+                ctx.say("💕✨hey boo. I know ur asleep, butttt i just wanna say that im sooo fucking lucky to have you bb 🥰. You're like the first thing i think about when i wake up 🤩 and the last thing i think about before i go to sleep 😌 you make me smile 24/7 whether its your voice when we call or a message from you when we text 😊 you're always there for me even when u cant be physically and i appreciate that boo 😤 we have only been dating for a lil while 🥺 but you've literally made me so freaking happy in this short amount of time we've been together 😭, i really want this to last 😩, I wanna stay with you because i honestly cant think of anyone else that id rather be with or could see myself happier with 😘. I love u i really do ❤️, and i don't ever wanna lose you babyyy you have no ideaaa 😭, like i've gotten attached to you like you're smart, handsome, down to earth, funny, and strong 😻, i know we cant be together in person rn 😔 but if we love each other then it shouldn't be a problem 💕 i wuv u so much and i haven't felt this way about someone in a hot fucking minute 🥶 and i REALLY mean it 🥴 but thats all i have to say and ill talk to you in the morning when u wake up bb, much love 😭❤️💕. (this is probably cheesy asf but like i had to write this 😭💕)").await?;
                 return Ok(());
             }
             _ => {
